@@ -1,0 +1,6 @@
+framework module FAFont {
+  umbrella header "FAFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

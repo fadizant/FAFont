@@ -1,0 +1,16 @@
+PODS:
+  - FAFont (0.1.0)
+
+DEPENDENCIES:
+  - FAFont (from `../`)
+
+EXTERNAL SOURCES:
+  FAFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FAFont: d6273c2391fb63b935d23fa1b7a29500f3009fe6
+
+PODFILE CHECKSUM: a83bfef4bf18475284c0cb74338a58c61cf75a1c
+
+COCOAPODS: 1.0.1

@@ -7,12 +7,18 @@
 //
 
 #import "FAAppDelegate.h"
+#import "FAFont.h"
 
 @implementation FAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [UIFont setRegularFontName:@"JFFlat-Regular"];
+    [UIFont setBoldFontName:@"JFFlat-Medium"];
+    [UIFont setItalicFontName:@"JFFlat-Regular"];
+    
     return YES;
 }
 

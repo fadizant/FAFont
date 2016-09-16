@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100098D65BBE1EE6DD15A4B8A8E50D2D /* Pods-FAFont_Example-FAFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609E68A910EFE09C9EB519713197B77 /* Pods-FAFont_Example-FAFont_Tests-dummy.m */; };
+		1367F91ADDC1A2A041A33DBC6CAB6E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1FA9A58F21FC690B297FACBCEF3306C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		208F104B5450AD7405631418A56BF293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2A4794BDA6A2194A84FFD9CC54E5855B /* Pods-FAFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7781C65D20ED8FB06CF2F65E420813 /* Pods-FAFont_Example-dummy.m */; };
+		792F9BF611528526513B86C2A93D4E49 /* FAFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A970F716914F21C3BFD86EAB69457A7 /* FAFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6C1F6738C6F6D331F50722B9433478 /* UIFont+FADefultFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D8263A6392D2EA560C4D9106AD7F2CDC /* UIFont+FADefultFont.m */; };
+		D1F128175DD6634E6C7C40792D3C3F99 /* FAFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D49C000D4058C3DCE875A39D7866A7 /* FAFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7D09A5077CE3FBDE1DBB6B573746040 /* UIFont+FADefultFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C084BDEEBA680BC3F13EC97BF9473B /* UIFont+FADefultFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E684807263074C27801AAA2028F9C4C0 /* Pods-FAFont_Example-FAFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B48B8CFFDF91CDA4BAED878505303B30 /* Pods-FAFont_Example-FAFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8878787ABF63288D0172D3EAE6BD2B4 /* Pods-FAFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274BB661DFC6D8428E0CACBEEA94D43E /* Pods-FAFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9EE8131C120C9710652BABD8C2B0C96 /* FAFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 030ACA54556F96760631F32292C21769 /* FAFont-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		736E34F6F8D02232E022764FF01A047F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B178F896E31867FDAAC2D0A9CAC8868E;
+			remoteInfo = FAFont;
+		};
+		C2C5C776EC5484C6AFFCD527A0BDEE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B178F896E31867FDAAC2D0A9CAC8868E;
+			remoteInfo = FAFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030ACA54556F96760631F32292C21769 /* FAFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAFont-dummy.m"; sourceTree = "<group>"; };
+		04C9D48593EDFD3527FB5C036CCE4DCA /* FAFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAFont-prefix.pch"; sourceTree = "<group>"; };
+		061CD5C0589594A5DCDA136A89C2A1D6 /* Pods-FAFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FAFont_Example.modulemap"; sourceTree = "<group>"; };
+		0A970F716914F21C3BFD86EAB69457A7 /* FAFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAFont-umbrella.h"; sourceTree = "<group>"; };
+		18EA4A9D37F0684BEED34ED989EC1764 /* Pods-FAFont_Example-FAFont_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAFont_Example-FAFont_Tests-resources.sh"; sourceTree = "<group>"; };
+		1B0BD9F5412D8C6E0E6A1E13A8C4B693 /* Pods-FAFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		25D49C000D4058C3DCE875A39D7866A7 /* FAFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAFont.h; sourceTree = "<group>"; };
+		26B1FEDE490F56CFDE7C15AB42467182 /* Pods-FAFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		274BB661DFC6D8428E0CACBEEA94D43E /* Pods-FAFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		2D19972361A81A88FA6B36CB211B4C91 /* Pods-FAFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		372D0DDC503FE9DEE13D450BA5A3F978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5609E68A910EFE09C9EB519713197B77 /* Pods-FAFont_Example-FAFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAFont_Example-FAFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		5FC97957870257E2093761B3A8F49401 /* Pods-FAFont_Example-FAFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAFont_Example-FAFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67746395F66A092A07443AE8736E08BD /* Pods-FAFont_Example-FAFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FAFont_Example-FAFont_Tests.modulemap"; sourceTree = "<group>"; };
+		6D6B8BDE2FFB46276B95846177BB10A5 /* Pods_FAFont_Example_FAFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAFont_Example_FAFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC6382CB259056FDC4E34C1089475CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF7B01F7C11683D60901D9C78EB0171 /* Pods-FAFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86D20021B6147342C28936F24B298C4A /* Pods-FAFont_Example-FAFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAFont_Example-FAFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89C084BDEEBA680BC3F13EC97BF9473B /* UIFont+FADefultFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+FADefultFont.h"; sourceTree = "<group>"; };
+		924105D9E9E10F1A62DE619F4B3B9F0C /* Pods_FAFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D89B5E06A3762F4115A299AB55BC2C /* Pods-FAFont_Example-FAFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAFont_Example-FAFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FE945F068C43515A6BE3B8D314B1A64 /* Pods-FAFont_Example-FAFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAFont_Example-FAFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A09A42D5EE0AC2E6EA227635B671D3CA /* Pods-FAFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B48B8CFFDF91CDA4BAED878505303B30 /* Pods-FAFont_Example-FAFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAFont_Example-FAFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B96438649664AD553FCDE7743FAB4BB7 /* Pods-FAFont_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAFont_Example-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF4E9F4377D24DE8B20D679FBD5D075B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DBB4B53B9BB1BA266188BE5BC19E07 /* FAFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60FBA7D53208BBF5712A5FB02E8BC2D /* Pods-FAFont_Example-FAFont_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAFont_Example-FAFont_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D7F47E03783D26CD255745FEF2146000 /* FAFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FAFont.modulemap; sourceTree = "<group>"; };
+		D8263A6392D2EA560C4D9106AD7F2CDC /* UIFont+FADefultFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FADefultFont.m"; sourceTree = "<group>"; };
+		ED7781C65D20ED8FB06CF2F65E420813 /* Pods-FAFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAFont_Example-dummy.m"; sourceTree = "<group>"; };
+		F72461928DDFCFC0D2FF70D8ECF2AAA4 /* FAFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAFont.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36325BEF6E943E1E6D11FAD1947F2592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1367F91ADDC1A2A041A33DBC6CAB6E35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADC715BB6297C07B5A9058628EE4A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208F104B5450AD7405631418A56BF293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CB509546CF51C24B622E42FD6A74F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA9A58F21FC690B297FACBCEF3306C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0927393DE53FC2BFFEE815D7A6E8D5B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1739CE92CAC301CC5A1E21E397635D /* Pods-FAFont_Example */,
+				62C976E296B8D7A82AF7C8AE7152569F /* Pods-FAFont_Example-FAFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DC7A6B452329A8953CD6E069A78CF2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0BB079C7FC16EC8310D0E0D84B40C4B /* FAFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58B733B8DEE4E2B68143D4300314F7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4DBB4B53B9BB1BA266188BE5BC19E07 /* FAFont.framework */,
+				924105D9E9E10F1A62DE619F4B3B9F0C /* Pods_FAFont_Example.framework */,
+				6D6B8BDE2FFB46276B95846177BB10A5 /* Pods_FAFont_Example_FAFont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62C976E296B8D7A82AF7C8AE7152569F /* Pods-FAFont_Example-FAFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				372D0DDC503FE9DEE13D450BA5A3F978 /* Info.plist */,
+				67746395F66A092A07443AE8736E08BD /* Pods-FAFont_Example-FAFont_Tests.modulemap */,
+				95D89B5E06A3762F4115A299AB55BC2C /* Pods-FAFont_Example-FAFont_Tests-acknowledgements.markdown */,
+				9FE945F068C43515A6BE3B8D314B1A64 /* Pods-FAFont_Example-FAFont_Tests-acknowledgements.plist */,
+				5609E68A910EFE09C9EB519713197B77 /* Pods-FAFont_Example-FAFont_Tests-dummy.m */,
+				D60FBA7D53208BBF5712A5FB02E8BC2D /* Pods-FAFont_Example-FAFont_Tests-frameworks.sh */,
+				18EA4A9D37F0684BEED34ED989EC1764 /* Pods-FAFont_Example-FAFont_Tests-resources.sh */,
+				B48B8CFFDF91CDA4BAED878505303B30 /* Pods-FAFont_Example-FAFont_Tests-umbrella.h */,
+				86D20021B6147342C28936F24B298C4A /* Pods-FAFont_Example-FAFont_Tests.debug.xcconfig */,
+				5FC97957870257E2093761B3A8F49401 /* Pods-FAFont_Example-FAFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-FAFont_Example-FAFont_Tests";
+			path = "Target Support Files/Pods-FAFont_Example-FAFont_Tests";
+			sourceTree = "<group>";
+		};
+		6F5E203D3E64F28F4DDCE0E35BE320F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F47E03783D26CD255745FEF2146000 /* FAFont.modulemap */,
+				F72461928DDFCFC0D2FF70D8ECF2AAA4 /* FAFont.xcconfig */,
+				030ACA54556F96760631F32292C21769 /* FAFont-dummy.m */,
+				04C9D48593EDFD3527FB5C036CCE4DCA /* FAFont-prefix.pch */,
+				0A970F716914F21C3BFD86EAB69457A7 /* FAFont-umbrella.h */,
+				CF4E9F4377D24DE8B20D679FBD5D075B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FAFont";
+			sourceTree = "<group>";
+		};
+		7CDE62607EEE5459891D61EC21F98670 /* FAFont */ = {
+			isa = PBXGroup;
+			children = (
+				7FF74B075D58305DC740130F7A7C4BFF /* Classes */,
+			);
+			path = FAFont;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0DC7A6B452329A8953CD6E069A78CF2F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				58B733B8DEE4E2B68143D4300314F7DD /* Products */,
+				0927393DE53FC2BFFEE815D7A6E8D5B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF74B075D58305DC740130F7A7C4BFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25D49C000D4058C3DCE875A39D7866A7 /* FAFont.h */,
+				89C084BDEEBA680BC3F13EC97BF9473B /* UIFont+FADefultFont.h */,
+				D8263A6392D2EA560C4D9106AD7F2CDC /* UIFont+FADefultFont.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0BB079C7FC16EC8310D0E0D84B40C4B /* FAFont */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE62607EEE5459891D61EC21F98670 /* FAFont */,
+				6F5E203D3E64F28F4DDCE0E35BE320F5 /* Support Files */,
+			);
+			name = FAFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC1739CE92CAC301CC5A1E21E397635D /* Pods-FAFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6382CB259056FDC4E34C1089475CC /* Info.plist */,
+				061CD5C0589594A5DCDA136A89C2A1D6 /* Pods-FAFont_Example.modulemap */,
+				26B1FEDE490F56CFDE7C15AB42467182 /* Pods-FAFont_Example-acknowledgements.markdown */,
+				1B0BD9F5412D8C6E0E6A1E13A8C4B693 /* Pods-FAFont_Example-acknowledgements.plist */,
+				ED7781C65D20ED8FB06CF2F65E420813 /* Pods-FAFont_Example-dummy.m */,
+				2D19972361A81A88FA6B36CB211B4C91 /* Pods-FAFont_Example-frameworks.sh */,
+				B96438649664AD553FCDE7743FAB4BB7 /* Pods-FAFont_Example-resources.sh */,
+				274BB661DFC6D8428E0CACBEEA94D43E /* Pods-FAFont_Example-umbrella.h */,
+				6EF7B01F7C11683D60901D9C78EB0171 /* Pods-FAFont_Example.debug.xcconfig */,
+				A09A42D5EE0AC2E6EA227635B671D3CA /* Pods-FAFont_Example.release.xcconfig */,
+			);
+			name = "Pods-FAFont_Example";
+			path = "Target Support Files/Pods-FAFont_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7655968D34CAAA2226B6AD9122C981F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8878787ABF63288D0172D3EAE6BD2B4 /* Pods-FAFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9613D7AA4B33269E50AE6BC0D39369B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792F9BF611528526513B86C2A93D4E49 /* FAFont-umbrella.h in Headers */,
+				D1F128175DD6634E6C7C40792D3C3F99 /* FAFont.h in Headers */,
+				D7D09A5077CE3FBDE1DBB6B573746040 /* UIFont+FADefultFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3595DEF09451FA00D6F448C0669ABA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E684807263074C27801AAA2028F9C4C0 /* Pods-FAFont_Example-FAFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D0A411F22A95BB4F68DF56E4F28D7D1 /* Pods-FAFont_Example-FAFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9649AABEE8B4B130AA06588217B7547A /* Build configuration list for PBXNativeTarget "Pods-FAFont_Example-FAFont_Tests" */;
+			buildPhases = (
+				4A374102BF1289C6BBF1342C33213FD1 /* Sources */,
+				3ADC715BB6297C07B5A9058628EE4A8E /* Frameworks */,
+				DA3595DEF09451FA00D6F448C0669ABA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2692D488DB2D8CDB175841BF85CD4590 /* PBXTargetDependency */,
+			);
+			name = "Pods-FAFont_Example-FAFont_Tests";
+			productName = "Pods-FAFont_Example-FAFont_Tests";
+			productReference = 6D6B8BDE2FFB46276B95846177BB10A5 /* Pods_FAFont_Example_FAFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B178F896E31867FDAAC2D0A9CAC8868E /* FAFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B51C371E332B21C82AD26955CFDEB2 /* Build configuration list for PBXNativeTarget "FAFont" */;
+			buildPhases = (
+				36EF39C552C35354250F0B547217518C /* Sources */,
+				36325BEF6E943E1E6D11FAD1947F2592 /* Frameworks */,
+				9613D7AA4B33269E50AE6BC0D39369B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAFont;
+			productName = FAFont;
+			productReference = D4DBB4B53B9BB1BA266188BE5BC19E07 /* FAFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7772DB041D4F173CCE25EE4B2B4CD0A /* Pods-FAFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6801E842DDC061170E833EB8CA4B9262 /* Build configuration list for PBXNativeTarget "Pods-FAFont_Example" */;
+			buildPhases = (
+				AB095E61C20DF8B498817FB9B79D8CB4 /* Sources */,
+				A3CB509546CF51C24B622E42FD6A74F8 /* Frameworks */,
+				7655968D34CAAA2226B6AD9122C981F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB88FE9993173D35F723820B0AD67B7A /* PBXTargetDependency */,
+			);
+			name = "Pods-FAFont_Example";
+			productName = "Pods-FAFont_Example";
+			productReference = 924105D9E9E10F1A62DE619F4B3B9F0C /* Pods_FAFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58B733B8DEE4E2B68143D4300314F7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B178F896E31867FDAAC2D0A9CAC8868E /* FAFont */,
+				C7772DB041D4F173CCE25EE4B2B4CD0A /* Pods-FAFont_Example */,
+				3D0A411F22A95BB4F68DF56E4F28D7D1 /* Pods-FAFont_Example-FAFont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EF39C552C35354250F0B547217518C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EE8131C120C9710652BABD8C2B0C96 /* FAFont-dummy.m in Sources */,
+				7C6C1F6738C6F6D331F50722B9433478 /* UIFont+FADefultFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A374102BF1289C6BBF1342C33213FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100098D65BBE1EE6DD15A4B8A8E50D2D /* Pods-FAFont_Example-FAFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB095E61C20DF8B498817FB9B79D8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4794BDA6A2194A84FFD9CC54E5855B /* Pods-FAFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2692D488DB2D8CDB175841BF85CD4590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAFont;
+			target = B178F896E31867FDAAC2D0A9CAC8868E /* FAFont */;
+			targetProxy = 736E34F6F8D02232E022764FF01A047F /* PBXContainerItemProxy */;
+		};
+		CB88FE9993173D35F723820B0AD67B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAFont;
+			target = B178F896E31867FDAAC2D0A9CAC8868E /* FAFont */;
+			targetProxy = C2C5C776EC5484C6AFFCD527A0BDEE69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15935733C36603F90CA15C00878800B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D20021B6147342C28936F24B298C4A /* Pods-FAFont_Example-FAFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FAFont_Example-FAFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAFont_Example-FAFont_Tests/Pods-FAFont_Example-FAFont_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAFont_Example_FAFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15B14195EEB0BA090A8E72A62D113A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72461928DDFCFC0D2FF70D8ECF2AAA4 /* FAFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FAFont/FAFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAFont/FAFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FAFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC65CF7E5F08B3D9914B791FA5F959EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09A42D5EE0AC2E6EA227635B671D3CA /* Pods-FAFont_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FAFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAFont_Example/Pods-FAFont_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDE528069FF413FFA55CE2E0E5806A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC97957870257E2093761B3A8F49401 /* Pods-FAFont_Example-FAFont_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FAFont_Example-FAFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAFont_Example-FAFont_Tests/Pods-FAFont_Example-FAFont_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAFont_Example_FAFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF98E8CD62047A232CF52546A1F791F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72461928DDFCFC0D2FF70D8ECF2AAA4 /* FAFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FAFont/FAFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAFont/FAFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FAFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7158A2E2605F37D9EE894260431B46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF7B01F7C11683D60901D9C78EB0171 /* Pods-FAFont_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FAFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAFont_Example/Pods-FAFont_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FAFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B51C371E332B21C82AD26955CFDEB2 /* Build configuration list for PBXNativeTarget "FAFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B14195EEB0BA090A8E72A62D113A4E /* Debug */,
+				DF98E8CD62047A232CF52546A1F791F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6801E842DDC061170E833EB8CA4B9262 /* Build configuration list for PBXNativeTarget "Pods-FAFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7158A2E2605F37D9EE894260431B46B /* Debug */,
+				BC65CF7E5F08B3D9914B791FA5F959EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9649AABEE8B4B130AA06588217B7547A /* Build configuration list for PBXNativeTarget "Pods-FAFont_Example-FAFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15935733C36603F90CA15C00878800B6 /* Debug */,
+				CDE528069FF413FFA55CE2E0E5806A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

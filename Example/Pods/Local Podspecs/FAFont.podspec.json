@@ -1,0 +1,21 @@
+{
+  "name": "FAFont",
+  "version": "0.1.0",
+  "summary": "init FAFont.",
+  "homepage": "https://github.com/fadizant/FAFont",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fadizant": "fadizant@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fadizant/FAFont.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FAFont/Classes/**/*"
+}

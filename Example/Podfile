@@ -3,9 +3,7 @@ use_frameworks!
 target 'FAFont_Example' do
   pod 'FAFont', :path => '../'
 
-  target 'FAFont_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+target 'FAFont_Tests' do
+    pod 'FAFont', :path => '../'
   end
 end

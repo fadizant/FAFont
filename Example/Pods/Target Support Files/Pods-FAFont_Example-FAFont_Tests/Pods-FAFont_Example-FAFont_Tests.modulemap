@@ -1,0 +1,6 @@
+framework module Pods_FAFont_Example_FAFont_Tests {
+  umbrella header "Pods-FAFont_Example-FAFont_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
