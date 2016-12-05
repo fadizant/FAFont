@@ -13,5 +13,6 @@
 +(void)setRegularFontName:(NSString*)fontName;
 +(void)setBoldFontName:(NSString*)fontName;
 +(void)setItalicFontName:(NSString*)fontName;
++(void)printFonts;
 
 @end

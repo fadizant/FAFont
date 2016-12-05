@@ -15,9 +15,22 @@ static NSString * FORegularFontName ;
 static NSString * FOBoldFontName ;
 static NSString * FOItalicFontName ;
 
-+(void)setRegularFontName:(NSString*)fontName{FORegularFontName = fontName;}
-+(void)setBoldFontName:(NSString*)fontName{FOBoldFontName = fontName;}
-+(void)setItalicFontName:(NSString*)fontName{FOItalicFontName = fontName;}
++(void)setRegularFontName:(NSString*)fontName{
+    FORegularFontName = fontName;}
++(void)setBoldFontName:(NSString*)fontName{
+    FOBoldFontName = fontName;}
++(void)setItalicFontName:(NSString*)fontName{
+    FOItalicFontName = fontName;}
++(void)printFonts
+{
+    for (NSString* family in [UIFont familyNames]) {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family]) {
+            NSLog(@"  %@", name);
+        }
+    }
+}
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
@@ -40,12 +53,12 @@ static NSString * FOItalicFontName ;
 
 + (UIFont *)boldFontWithSize:(CGFloat)size
 {
-    return [UIFont fontWithName:FOBoldFontName size:size];
+    return [UIFont fontWithName:FOBoldFontName && ![FOBoldFontName isEqualToString:@""] ? FOBoldFontName : FORegularFontName size:size];
 }
 
 + (UIFont *)italicFontOfSize:(CGFloat)size
 {
-    return [UIFont fontWithName:FOItalicFontName size:size];
+    return [UIFont fontWithName:FOItalicFontName && ![FOItalicFontName isEqualToString:@""] ? FOItalicFontName : FORegularFontName size:size];
 }
 
 - (id)initCustomWithCoder:(NSCoder *)aDecoder {
@@ -59,6 +72,12 @@ static NSString * FOItalicFontName ;
             fontName = FORegularFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontEmphasizedUsage"]) {
+            fontName = FOBoldFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontBoldUsage"]) {
+            fontName = FOBoldFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontMediumUsage"]) {
             fontName = FOBoldFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontObliqueUsage"]) {
