@@ -1,9 +1,9 @@
 //
 //  UIFont+FADefultFont.m
-//  Kazoz
+//  
 //
 //  Created by Fadi on 23/2/16.
-//  Copyright © 2016 apprikot. All rights reserved.
+//  Copyright © 2016 . All rights reserved.
 //
 
 #import "UIFont+FADefultFont.h"

@@ -9,7 +9,44 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## How to use
+
+Add your custom font to your project :
+https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_custom_font_to_your_app
+
+### Objc
+
+```ruby
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+// Print all font names
+[UIFont printFonts];
+
+// set fonts by font name
+[UIFont setRegularFontName:@"JFFlat-Regular"];
+[UIFont setBoldFontName:@"JFFlat-Medium"];
+[UIFont setItalicFontName:@"JFFlat-Regular"];
+
+return YES;
+}
+```
+
+### Swift4
+
+```ruby
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+// Print all font names
+UIFont.printFonts()
+
+// set fonts by font name
+UIFont.setBoldFontName("OpenSans-Bold")
+UIFont.setRegularFontName("OpenSans")
+UIFont.setItalicFontName("OpenSans-Italic")
+
+return true
+}
+```
 
 ## Installation
 
@@ -27,3 +64,4 @@ fadizant, fadizant@hotmail.com
 ## License
 
 FAFont is available under the MIT license. See the LICENSE file for more info.
+

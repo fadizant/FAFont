@@ -15,6 +15,10 @@
 {
     // Override point for customization after application launch.
     
+    // Print all font names
+    [UIFont printFonts];
+    
+    // set fonts by font name
     [UIFont setRegularFontName:@"JFFlat-Regular"];
     [UIFont setBoldFontName:@"JFFlat-Medium"];
     [UIFont setItalicFontName:@"JFFlat-Regular"];
