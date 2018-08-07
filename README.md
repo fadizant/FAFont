@@ -17,34 +17,34 @@ https://developer.apple.com/documentation/uikit/text_display_and_fonts/adding_a_
 ### Objc
 
 ```ruby
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//add it in AppDelegate initialize
++ (void)initialize {
+    if (self == AppDelegate.self) {
+        // Print all font names
+        [UIFont printFonts];
 
-// Print all font names
-[UIFont printFonts];
-
-// set fonts by font name
-[UIFont setRegularFontName:@"JFFlat-Regular"];
-[UIFont setBoldFontName:@"JFFlat-Medium"];
-[UIFont setItalicFontName:@"JFFlat-Regular"];
-
-return YES;
+        // set fonts by font name
+        [UIFont setRegularFontName:@"JFFlat-Regular"];
+        [UIFont setBoldFontName:@"JFFlat-Medium"];
+        [UIFont setItalicFontName:@"JFFlat-Regular"];
+    }
 }
 ```
 
 ### Swift4
 
 ```ruby
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//add it in AppDelegate initialize
+override init() {
+    // Print all font names
+    UIFont.printFonts()
 
-// Print all font names
-UIFont.printFonts()
+    // set fonts by font name
+    UIFont.setBoldFontName("OpenSans-Bold")
+    UIFont.setRegularFontName("OpenSans")
+    UIFont.setItalicFontName("OpenSans-Italic")
 
-// set fonts by font name
-UIFont.setBoldFontName("OpenSans-Bold")
-UIFont.setRegularFontName("OpenSans")
-UIFont.setItalicFontName("OpenSans-Italic")
-
-return true
+    return true
 }
 ```
 
@@ -59,7 +59,7 @@ pod "FAFont"
 
 ## Author
 
-fadizant, fadizant@hotmail.com
+fadizant, fadizant@gmail.com
 
 ## License
 

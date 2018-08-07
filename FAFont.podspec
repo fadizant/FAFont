@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FAFont'
-  s.version          = '0.1.2'
-  s.summary          = 'add dscription.'
+  s.version          = '0.1.3'
+  s.summary          = 'add rest of system fonts (UltraLight,Thin,Light,Medium,Demi and Heavy).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/fadizant/FAFont'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fadizant' => 'fadizant@hotmail.com' }
+  s.author           = { 'fadizant' => 'fadizant@gmail.com' }
   s.source           = { :git => 'https://github.com/fadizant/FAFont.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

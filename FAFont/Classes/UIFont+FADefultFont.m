@@ -11,16 +11,26 @@
 
 @implementation UIFont (FADefultFont)
 
-static NSString * FORegularFontName ;
-static NSString * FOBoldFontName ;
-static NSString * FOItalicFontName ;
+static NSString * FARegularFontName ;
+static NSString * FABoldFontName ;
+static NSString * FAItalicFontName ;
+static NSString * FAUltraLightFontName ;
+static NSString * FAThinFontName ;
+static NSString * FALightFontName ;
+static NSString * FAMediumFontName ;
+static NSString * FADemiFontName ;
+static NSString * FAHeavyFontName ;
 
-+(void)setRegularFontName:(NSString*)fontName{
-    FORegularFontName = fontName;}
-+(void)setBoldFontName:(NSString*)fontName{
-    FOBoldFontName = fontName;}
-+(void)setItalicFontName:(NSString*)fontName{
-    FOItalicFontName = fontName;}
++(void)setRegularFontName:(NSString*)fontName{FARegularFontName = fontName;}
++(void)setBoldFontName:(NSString*)fontName{FABoldFontName = fontName;}
++(void)setItalicFontName:(NSString*)fontName{FAItalicFontName = fontName;}
++(void)setUltraLightFontName:(NSString*)fontName{FAUltraLightFontName = fontName;}
++(void)setThinFontName:(NSString*)fontName{FAThinFontName = fontName;}
++(void)setLightFontName:(NSString*)fontName{FALightFontName = fontName;}
++(void)setMediumFontName:(NSString*)fontName{FAMediumFontName = fontName;}
++(void)setDemiFontName:(NSString*)fontName{FADemiFontName = fontName;}
++(void)setHeavyFontName:(NSString*)fontName{FAHeavyFontName = fontName;}
+
 +(void)printFonts
 {
     for (NSString* family in [UIFont familyNames]) {
@@ -48,17 +58,47 @@ static NSString * FOItalicFontName ;
 
 + (UIFont *)regularFontWithSize:(CGFloat)size
 {
-    return [UIFont fontWithName:FORegularFontName size:size];
+    return [UIFont fontWithName:FARegularFontName size:size];
 }
 
 + (UIFont *)boldFontWithSize:(CGFloat)size
 {
-    return [UIFont fontWithName:FOBoldFontName && ![FOBoldFontName isEqualToString:@""] ? FOBoldFontName : FORegularFontName size:size];
+    return [UIFont fontWithName:FABoldFontName && ![FABoldFontName isEqualToString:@""] ? FABoldFontName : FARegularFontName size:size];
 }
 
 + (UIFont *)italicFontOfSize:(CGFloat)size
 {
-    return [UIFont fontWithName:FOItalicFontName && ![FOItalicFontName isEqualToString:@""] ? FOItalicFontName : FORegularFontName size:size];
+    return [UIFont fontWithName:FAItalicFontName && ![FAItalicFontName isEqualToString:@""] ? FAItalicFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)ultraLightFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FAUltraLightFontName && ![FAUltraLightFontName isEqualToString:@""] ? FAUltraLightFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)thinFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FAThinFontName && ![FAThinFontName isEqualToString:@""] ? FAThinFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)lightFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FALightFontName && ![FALightFontName isEqualToString:@""] ? FALightFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)mediumFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FAMediumFontName && ![FAMediumFontName isEqualToString:@""] ? FAMediumFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)demiFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FADemiFontName && ![FADemiFontName isEqualToString:@""] ? FADemiFontName : FARegularFontName size:size];
+}
+
++ (UIFont *)heavyFontWithSize:(CGFloat)size
+{
+    return [UIFont fontWithName:FAHeavyFontName && ![FAHeavyFontName isEqualToString:@""] ? FAHeavyFontName : FARegularFontName size:size];
 }
 
 - (id)initCustomWithCoder:(NSCoder *)aDecoder {
@@ -69,19 +109,34 @@ static NSString * FOItalicFontName ;
         
         NSString *fontName;
         if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontRegularUsage"]) {
-            fontName = FORegularFontName;
+            fontName = FARegularFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontEmphasizedUsage"]) {
-            fontName = FOBoldFontName;
+            fontName = FABoldFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontBoldUsage"]) {
-            fontName = FOBoldFontName;
+            fontName = FABoldFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontMediumUsage"]) {
-            fontName = FOBoldFontName;
+            fontName = FAMediumFontName;
         }
         else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontObliqueUsage"]) {
-            fontName = FOItalicFontName;
+            fontName = FAItalicFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontUltraLightUsage"]) {
+            fontName = FAUltraLightFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontThinUsage"]) {
+            fontName = FAThinFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontLightUsage"]) {
+            fontName = FALightFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontDemiUsage"]) {
+            fontName = FADemiFontName;
+        }
+        else if ([descriptor.fontAttributes[@"NSCTFontUIUsageAttribute"] isEqualToString:@"CTFontHeavyUsage"]) {
+            fontName = FAHeavyFontName;
         }
         else {
             fontName = descriptor.fontAttributes[@"NSFontNameAttribute"];

@@ -11,18 +11,21 @@
 
 @implementation FAAppDelegate
 
++ (void)initialize {
+    if (self == FAAppDelegate.self) {
+        // Print all font names
+        [UIFont printFonts];
+        
+        // set fonts by font name
+        [UIFont setRegularFontName:@"JFFlat-Regular"];
+        [UIFont setBoldFontName:@"JFFlat-Medium"];
+        [UIFont setItalicFontName:@"JFFlat-Regular"];
+    }
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    
-    // Print all font names
-    [UIFont printFonts];
-    
-    // set fonts by font name
-    [UIFont setRegularFontName:@"JFFlat-Regular"];
-    [UIFont setBoldFontName:@"JFFlat-Medium"];
-    [UIFont setItalicFontName:@"JFFlat-Regular"];
-    
     return YES;
 }
 
